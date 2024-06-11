@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TIMER APP</string>
+    <string name="mm">MM</string>
+    <string name="hh">HH</string>
+    <string name="ss">SS</string>
+    <string name="set">set</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">reset</string>
+</resources>

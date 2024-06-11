@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edthour"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hh"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="30sp"
+         />
+
+    <EditText
+        android:id="@+id/edtminute"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/mm"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+ <EditText
+     android:id="@+id/edtsecond"
+     android:layout_width="60dp"
+     android:layout_height="60dp"
+     android:layout_marginStart="120dp"
+     android:layout_marginTop="10dp"
+     android:autofillHints="no"
+     android:hint="@string/ss"
+     android:inputType="number"
+     android:textAlignment="center"
+     android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/timerset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="107dp"
+        android:text="@string/set"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/timertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00_00_00"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="79dp"/>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/start"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnpause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pause"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/reset"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
